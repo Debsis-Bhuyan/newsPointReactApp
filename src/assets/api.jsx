@@ -1,0 +1,1 @@
+export const REACT_APP_NEWS_API="9d52b2b71a6c456fb67341a7524638dd";
