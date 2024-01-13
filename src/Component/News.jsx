@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
 
-import NewsItem from "./item";
-// // import Spinner from "./Spinner";
-// import Spinner from './Spinner.jsx'
+import NewsItem from "./Item";
+
 import Spinner from "./spinner";
 import PropTypes from "prop-types";
 import InfiniteScroll from "react-infinite-scroll-component";
