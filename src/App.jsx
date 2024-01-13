@@ -5,11 +5,11 @@ import NavBar from "./Component/NavBar";
 import News from "./Component/News";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LoadingBar from "react-top-loading-bar";
-import { REACT_APP_NEWS_API } from "./assets/api";
+import { url } from "./assets/api";
 
 const App = () => {
   const pageSize = 9;
-  const apiKey = REACT_APP_NEWS_API ;
+  const apiKey = url ;
   const [progress, setProgress] = useState(0);
 
   return (
